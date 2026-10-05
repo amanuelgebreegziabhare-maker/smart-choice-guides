@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amanuelgebreegziabhare-maker.github.io/smart-choice-guides/sitemap.xml
