@@ -228,6 +228,47 @@
       }
     }
   </style>
+
+
+/* Desktop navigation alignment fix */
+@media (min-width: 901px) {
+  body > header {
+    width: 100%;
+  }
+
+  body > header > nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 18px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 20px;
+    box-sizing: border-box;
+  }
+
+  body > header > nav > a {
+    display: inline-block;
+    flex: 0 0 auto;
+    white-space: nowrap;
+    margin: 0;
+    padding: 6px 0;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  body > header > nav > a:first-child {
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
+
 </head>
 
 <body>
