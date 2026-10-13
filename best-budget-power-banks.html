@@ -227,6 +227,36 @@
         text-align: center;
       }
     }
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    /* Fix navigation spacing on this article */
+    .site-header .container.nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .site-header .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .site-header .nav-links a {
+      display: inline-block;
+      white-space: nowrap;
+      font-size: 0.94rem;
+      font-weight: 700;
+    }
+
+    @media (max-width: 850px) {
+      .site-header .nav-links {
+        display: none;
+      }
+    }
+    
   </style>
 
 
